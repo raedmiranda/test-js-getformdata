@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
 </head>
-
 <body>
     <form action="/save" method="post">
         <div>
             <label for="InputEmail">Email address</label>
-            <input type="email" name="email" id="InputEmail" placeholder="Enter email" value="q@w.co">
+            <input name="email" value="q@w.co" type="email" id="InputEmail" placeholder="Enter email">
         </div>
         <div>
             <label for="InputPassword">Password</label>
-            <input type="password" name="password" id="InputPassword" placeholder="Password" value="qw3rTYYYYY$$">
+            <input name="password" value="qw3rTYYYYY$$" type="password" id="InputPassword" placeholder="Password">
         </div>
         <div>
-            <input type="checkbox" id="Check" name="check" checked>
+            <input name="check" checked type="checkbox" id="Check">
             <label for="Check">Check me out</label>
         </div>
         <button type="submit">Submit</button>
     </form>
-    <script src="index.js" type="javascript"></script>
 </body>
 
 </html>
